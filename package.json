@@ -1,0 +1,25 @@
+{
+  "name": "pup-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "puppeteer",
+    "express",
+    "tests",
+    "jest"
+  ],
+  "author": "Delvoid",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "jest": "^27.4.5",
+    "puppeteer": "^13.0.0"
+  },
+  "jest": {
+    "testTimeout": 15000
+  }
+}
